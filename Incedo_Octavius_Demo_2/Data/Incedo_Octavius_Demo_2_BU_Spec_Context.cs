@@ -20,5 +20,7 @@ namespace Incedo_Octavius_Demo_2.Data
         }
 
         public System.Data.Entity.DbSet<Incedo_Octavius_Demo_2.Models.BusinessUserSpecialtyModel> BusinessUserSpecialtyModels { get; set; }
+
+        public System.Data.Entity.DbSet<Incedo_Octavius_Demo_2.Models.ProfileStatusModel> ProfileStatusModels { get; set; }
     }
 }
