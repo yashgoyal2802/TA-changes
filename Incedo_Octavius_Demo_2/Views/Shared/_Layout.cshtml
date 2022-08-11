@@ -10,7 +10,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #1c324f;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #4d84e2; ">
             <div class="container-fluid">
                 <!--<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Octavius</a>-->
                 <span class="navbar-brand">@Html.ActionLink("Octavius", "Index", "Home", null, new { id = "OT", style = "color: white" })</span>
@@ -61,28 +61,15 @@
         </li>
             -->
                     </ul>
-
-                    <div class="search">
-                        <form action="#">
-                            <input type="text"
-                                   placeholder=" Search Courses"
-                                   name="search">
-                            <button>
-                                <i class="fa fa-search"
-                                   style="font-size: 18px;">
-                                </i>
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container body-content">
+    <div>
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.TimeOfDay - © Copyright 2022 Incedo Inc.</p>
+            <p>&copy; @DateTime.Now.Year - Copyright Incedo Inc.</p>
         </footer>
     </div>
 
