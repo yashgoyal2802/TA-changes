@@ -360,6 +360,7 @@
     <Compile Include="Models\kol_table.cs" />
     <Compile Include="Models\KOL_With_Degree.cs" />
     <Compile Include="Models\KOL_With_Degree_List.cs" />
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\ProfileStatusModel.cs" />
     <Compile Include="Models\SpecialtyModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
